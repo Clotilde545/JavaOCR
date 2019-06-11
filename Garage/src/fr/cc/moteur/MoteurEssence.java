@@ -6,7 +6,11 @@ import fr.cc.garage.TypeMoteur;
 public class MoteurEssence extends Moteur {
     public MoteurEssence(){
         super();
-       
+
+        setType(TypeMoteur.ESSENCE);
+    }
+    public MoteurEssence(String cylindre, double prixMoteur){
+        super();
         setType(TypeMoteur.ESSENCE);
     }
 }
