@@ -1,4 +1,10 @@
 package fr.cc.options;
 
-public class VitreElectrique {
+import fr.cc.garage.Options;
+
+public class VitreElectrique implements Options {
+    @Override
+    public double getPrixOption() {
+        return 300;
+    }
 }

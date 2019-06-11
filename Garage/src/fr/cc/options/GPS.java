@@ -1,4 +1,10 @@
 package fr.cc.options;
 
-public class GPS {
+import fr.cc.garage.Options;
+
+public class GPS implements Options {
+    @Override
+    public double getPrixOption() {
+        return 500;
+    }
 }
