@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="convertCelsiusToFahr:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/convertCelsiusToFahr_jar</output-path>
+    <root id="archive" name="convertCelsiusToFahr.jar">
+      <element id="module-output" name="convertCelsiusToFahr" />
+    </root>
+  </artifact>
+</component>
