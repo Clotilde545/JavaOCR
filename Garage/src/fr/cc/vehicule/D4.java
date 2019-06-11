@@ -1,4 +1,6 @@
 package fr.cc.vehicule;
 
-public class D4 {
+import fr.cc.garage.Vehicule;
+
+public class D4 extends Vehicule {
 }

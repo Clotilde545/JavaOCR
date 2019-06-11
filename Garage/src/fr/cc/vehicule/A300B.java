@@ -1,4 +1,6 @@
 package fr.cc.vehicule;
 
-public class A300B {
+import fr.cc.garage.Vehicule;
+
+public class A300B extends Vehicule{
 }

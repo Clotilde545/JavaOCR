@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35ba5ca-0cde-4a01-8d67-35bba6b9766d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/Marque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/Moteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/Options.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/garage/Vehicule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/moteur/MoteurDiesel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/moteur/MoteurElectrique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/moteur/MoteurEssence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/moteur/MoteurHybride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/options/BarreDeToit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/options/Climatisation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/options/GPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/options/SiegeChauffant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/options/VitreElectrique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/vehicule/D4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/artifacts/convertCelsiusToFahr_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/libraries/junit_4_13_beta_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/src/OrderTest/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../convertCelsiusToFahr/convertCelsiusToFahr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../convertCelsiusToFahr/convertCelsiusToFahr.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/cc/garage/Marque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/cc/garage/Marque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/cc/vehicule/A300B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/cc/vehicule/A300B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/cc/vehicule/D4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/cc/vehicule/D4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,24 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/cc/moteur/MoteurHybride.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/cc/moteur/MoteurDiesel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/cc/options/GPS.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -116,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/D4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -125,8 +87,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/A300B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/Marque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -149,6 +129,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/fr/cc/garage/Options.java" />
+        <option value="$PROJECT_DIR$/src/fr/cc/garage/Marque.java" />
+        <option value="$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java" />
+        <option value="$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java" />
+        <option value="$PROJECT_DIR$/src/fr/cc/vehicule/D4.java" />
+        <option value="$PROJECT_DIR$/src/fr/cc/vehicule/A300B.java" />
       </list>
     </option>
   </component>
@@ -195,6 +180,13 @@
               <item name="Garage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cc" type="462c0819:PsiDirectoryNode" />
+              <item name="garage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Garage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Garage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cc" type="462c0819:PsiDirectoryNode" />
               <item name="vehicule" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,6 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -231,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560241735540</updated>
-      <workItem from="1560241738626" duration="976000" />
+      <workItem from="1560241738626" duration="2244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="976000" />
+    <option name="totallyTimeSpent" value="2244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -292,24 +285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/Marque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/Moteur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -390,24 +369,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/Marque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/cc/garage/TypeMoteur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/Laguna.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/D4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/cc/vehicule/A300B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
