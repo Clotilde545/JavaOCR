@@ -2,7 +2,7 @@ package fr.cc.garage;
 
 import java.util.List;
 
-public class Vehicule implements Options {
+public class Vehicule {
     protected Double prixChassis;
     protected String nom;
     protected List<Options> option;
