@@ -7,4 +7,9 @@ public class VitreElectrique implements Options {
     public double getPrixOption() {
         return 300;
     }
+
+    @Override
+    public String toString() {
+        return "VitreElectrique{}";
+    }
 }

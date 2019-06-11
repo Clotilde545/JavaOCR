@@ -1,17 +1,23 @@
 package fr.cc.garage;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Garage extends Vehicule {
     protected double prixVehicule;
     protected String nomVehicule;
     protected List listVehicule;
-    protected String nomMarque;
+    protected Marque nomMarque;
 
+
+public Garage(){
+    super();
+    this.listVehicule = new ArrayList();
+}
 
     //Getters and setters
-    public List addOptions(String opt){
-       listVehicule.add(opt);
+    public List addVoiture(Object obj){
+       listVehicule.add(obj);
        return listVehicule;
     }
 
@@ -31,13 +37,10 @@ public class Garage extends Vehicule {
         this.nomVehicule = nomVehicule;
     }
 
-    public Marque getNomMarque() {
-        return nomMarque;
-    }
 
-    public void setNomMarque(String nomMarque) {
-        this.nomMarque = nomMarque;
-    }
+    //public void setNomMarque(String nomMarque) {
+      //  this.nomMarque = nomMarque;
+    //}
 
     //To String
     @Override

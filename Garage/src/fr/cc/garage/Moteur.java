@@ -13,6 +13,15 @@ public class Moteur {
 
     }
 
+    @Override
+    public String toString() {
+        return "Moteur{" +
+                "type=" + type +
+                ", cylindre='" + cylindre + '\'' +
+                ", prixMoteur=" + prixMoteur +
+                '}';
+    }
+
     public TypeMoteur getType() {
         return type;
     }

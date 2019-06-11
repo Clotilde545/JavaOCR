@@ -7,4 +7,9 @@ public class GPS implements Options {
     public double getPrixOption() {
         return 500;
     }
+
+    @Override
+    public String toString() {
+        return "GPS{}";
+    }
 }

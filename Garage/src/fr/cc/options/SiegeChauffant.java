@@ -7,4 +7,9 @@ public class SiegeChauffant implements Options {
     public double getPrixOption() {
         return 3000;
     }
+
+    @Override
+    public String toString() {
+        return "SiegeChauffant{}";
+    }
 }

@@ -19,5 +19,6 @@ public class Main {
         lag1.addOption(new SiegeChauffant());
         lag1.addOption(new VitreElectrique());
         garage.addVoiture(lag1);
+        System.out.println(lag1);
     }
 }

@@ -1,5 +1,6 @@
 package fr.cc.garage;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Vehicule {
@@ -7,12 +8,17 @@ public class Vehicule {
     protected String nom;
     protected List<Options> option;
     protected Marque nomMarque;
+    protected Moteur moteur;
+
+    public Vehicule(){
+        super();
+        this.option = new ArrayList<Options>();
+    }
 
 
-    public List<Options> addOption(Options opt){
+    public void addOption(Options opt){
+            this.option.add(opt);
 
-            option.add(opt);
-            return option;
     }
 
 
@@ -58,5 +64,13 @@ public class Vehicule {
 
     public void setNomMarque(Marque nomMarque) {
         this.nomMarque = nomMarque;
+    }
+
+    public Moteur getMoteur() {
+        return moteur;
+    }
+
+    public void setMoteur(Moteur moteur) {
+        this.moteur = moteur;
     }
 }

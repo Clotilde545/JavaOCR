@@ -7,4 +7,9 @@ public class Climatisation implements Options {
     public double getPrixOption() {
         return 2000;
     }
+
+    @Override
+    public String toString() {
+        return "Climatisation{}";
+    }
 }

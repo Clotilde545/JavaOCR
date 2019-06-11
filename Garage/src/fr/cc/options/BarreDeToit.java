@@ -7,4 +7,9 @@ public class BarreDeToit implements Options {
     public double getPrixOption() {
         return 1000;
     }
+
+    @Override
+    public String toString() {
+        return "BarreDeToit{}";
+    }
 }
