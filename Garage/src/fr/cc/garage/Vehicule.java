@@ -3,10 +3,10 @@ package fr.cc.garage;
 import java.util.List;
 
 public class Vehicule implements Options {
-    Double prixChassis;
-    String nom;
-    List<Options> option;
-    Marque nomMarque;
+    protected Double prixChassis;
+    protected String nom;
+    protected List<Options> option;
+    protected Marque nomMarque;
 
     public List<Options> addOption(Options opt){
 
