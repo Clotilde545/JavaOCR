@@ -1,4 +1,4 @@
 package fr.cc.garage;
 
-public class Garage {
+public class Garage extends Vehicule {
 }

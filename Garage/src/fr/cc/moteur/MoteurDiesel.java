@@ -1,4 +1,6 @@
 package fr.cc.moteur;
 
-public class MoteurDiesel {
+import fr.cc.garage.Moteur;
+
+public class MoteurDiesel extends Moteur {
 }
