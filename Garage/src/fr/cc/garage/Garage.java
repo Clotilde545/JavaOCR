@@ -5,9 +5,11 @@ import java.util.List;
 public class Garage extends Vehicule {
     protected double prixVehicule;
     protected String nomVehicule;
-    protected List listVehicule = new List<Options>;
+    protected List listVehicule;
     protected String nomMarque;
 
+
+    //Getters and setters
     public List addOptions(String opt){
        listVehicule.add(opt);
        return listVehicule;
@@ -29,7 +31,7 @@ public class Garage extends Vehicule {
         this.nomVehicule = nomVehicule;
     }
 
-    public String getNomMarque() {
+    public Marque getNomMarque() {
         return nomMarque;
     }
 
@@ -37,6 +39,7 @@ public class Garage extends Vehicule {
         this.nomMarque = nomMarque;
     }
 
+    //To String
     @Override
     public String toString() {
         return "Garage{" +
