@@ -1,10 +1,12 @@
 package fr.cc.vehicule;
 
+import fr.cc.garage.Marque;
 import fr.cc.garage.Vehicule;
 
 public class D4 extends Vehicule {
-    @Override
-    public void setPrixChassis(Double prixChassis) {
-        super.setPrixChassis(15000.5);
+    public D4(){
+        setNomMarque(Marque.TROEN);
+        setNom("D4");
+        setPrixChassis(10000.0);
     }
 }

@@ -1,10 +1,12 @@
 package fr.cc.vehicule;
 
+import fr.cc.garage.Marque;
 import fr.cc.garage.Vehicule;
 
 public class Laguna extends Vehicule  {
-    @Override
-    public void setPrixChassis(Double prixChassis) {
-        super.setPrixChassis(10000.0);
+    public Laguna(){
+        setNomMarque(Marque.RENO);
+        setPrixChassis(5000.0);
+        setNom("Laguna");
     }
 }
