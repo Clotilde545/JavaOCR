@@ -11,6 +11,12 @@ import fr.cc.vehicule.A300B;
 import fr.cc.vehicule.D4;
 import fr.cc.vehicule.Laguna;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
+
 public class Main {
     public static void main(String[] args) {
         Garage garage = new Garage();
@@ -63,5 +69,30 @@ public class Main {
         d4_2.addOption(new VitreElectrique());
         garage.addVoiture(d4_2);
         System.out.println("\n" + d4_2);
+
+        //ECriture et lecture
+        Path path = Paths.get("garage.txt");
+        System.out.println("existe-t-il" + Files.exists(path));
+
+        FileWriter fileWriter;
+        FileReader fileReader;
+        File file = new File("garage.txt");
+        String str ;
+        try {
+            fileReader = new FileReader(file);
+            str = "";
+            int i = 0;
+            while ((i = fileReader.read()) != -1) {
+                str += (char) i;
+            }
+            System.out.println(str);
+        }catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+            System.out.println("lecture terminée !");
+
     }
 }
+
