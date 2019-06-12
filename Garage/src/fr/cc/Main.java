@@ -2,10 +2,13 @@ package fr.cc;
 
 import fr.cc.garage.Garage;
 import fr.cc.garage.Vehicule;
+import fr.cc.moteur.MoteurDiesel;
+import fr.cc.moteur.MoteurElectrique;
 import fr.cc.moteur.MoteurEssence;
-import fr.cc.options.GPS;
-import fr.cc.options.SiegeChauffant;
-import fr.cc.options.VitreElectrique;
+import fr.cc.moteur.MoteurHybride;
+import fr.cc.options.*;
+import fr.cc.vehicule.A300B;
+import fr.cc.vehicule.D4;
 import fr.cc.vehicule.Laguna;
 
 public class Main {
@@ -21,6 +24,44 @@ public class Main {
         lag1.addOption(new SiegeChauffant());
         lag1.addOption(new VitreElectrique());
         garage.addVoiture(lag1);
-        System.out.println(lag1);
+        System.out.println("\n" + lag1);
+
+        Vehicule A300B_2 = new A300B();
+        A300B_2.setMoteur(new MoteurElectrique("1500 W", 1234d));
+        A300B_2.addOption(new Climatisation());
+        A300B_2.addOption(new BarreDeToit());
+        A300B_2.addOption(new SiegeChauffant());
+        garage.addVoiture(A300B_2);
+        System.out.println("\n" + A300B_2);
+
+        Vehicule d4_1 = new D4();
+        d4_1.setMoteur(new MoteurDiesel("200 Hdi", 25684.80d));
+        d4_1.addOption(new BarreDeToit());
+        d4_1.addOption(new Climatisation());
+        d4_1.addOption(new GPS());
+        garage.addVoiture(d4_1);
+        System.out.println("\n" + d4_1);
+
+        Vehicule lag2 = new Laguna();
+        lag2.setMoteur(new MoteurDiesel("500 Hdi", 456987d));
+        garage.addVoiture(lag2);
+        System.out.println("\n" + lag2);
+
+        Vehicule A300B_1 = new A300B();
+        A300B_1.setMoteur(new MoteurHybride("ESSENCE/Electrique", 12345.95d));
+        A300B_1.addOption(new VitreElectrique());
+        A300B_1.addOption(new BarreDeToit());
+        garage.addVoiture(A300B_1);
+        System.out.println("\n" + A300B_1);
+
+        Vehicule d4_2 = new D4();
+        d4_2.setMoteur(new MoteurElectrique("100 KW", 1224d));
+        d4_2.addOption(new SiegeChauffant());
+        d4_2.addOption(new BarreDeToit());
+        d4_2.addOption(new Climatisation());
+        d4_2.addOption(new GPS());
+        d4_2.addOption(new VitreElectrique());
+        garage.addVoiture(d4_2);
+        System.out.println("\n" + d4_2);
     }
 }
