@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e64f09e4-96ad-473b-bbdf-2ab94cb65d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Garage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Garage/garage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/garage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Garage/out/production/Garage/fr/cc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/out/production/Garage/fr/cc/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Garage/out/production/Garage/fr/cc/garage/Garage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/out/production/Garage/fr/cc/garage/Garage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Garage/src/fr/cc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/src/fr/cc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Garage/src/fr/cc/garage/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Garage/src/fr/cc/garage/Garage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convertCelsiusToFahr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/convertCelsiusToFahr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/convertCelsiusToFahr/Degres/Celsius.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/convertCelsiusToFahr/Degres/Fahrenheit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/convertCelsiusToFahr/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/convertCelsiusToFahr/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Degres/Celsius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Degres/Celsius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Degres/Fahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Degres/Fahrenheit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderTest/OrderTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +61,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +103,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="48" />
     <option name="y" value="3" />
-    <option name="width" value="1586" />
+    <option name="width" value="1587" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,8 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +147,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +159,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../convertCelsiusToFahr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -249,17 +231,17 @@
       <workItem from="1559812470521" duration="26000" />
       <workItem from="1560245745333" duration="16000" />
       <workItem from="1560338718310" duration="2219000" />
+      <workItem from="1560352553347" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6503000" />
+    <option name="totallyTimeSpent" value="6694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20242915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20566802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,30 +315,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/OrderTest.class" />
-    <entry file="file://$PROJECT_DIR$/src/OrderTest/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderTest/OrderTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Degres/Fahrenheit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,6 +329,15 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

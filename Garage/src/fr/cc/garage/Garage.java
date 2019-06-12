@@ -1,7 +1,5 @@
 package fr.cc.garage;
 
-import fr.cc.options.GPS;
-
 
 import java.util.ArrayList;
 import java.util.Arrays;
