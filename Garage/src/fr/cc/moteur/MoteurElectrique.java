@@ -4,12 +4,10 @@ import fr.cc.garage.Moteur;
 import fr.cc.garage.TypeMoteur;
 
 public class MoteurElectrique extends Moteur {
-    public MoteurElectrique(){
-              setType(TypeMoteur.ELECTRIQUE);
-    }
+
 
     public MoteurElectrique(String cylindre, double prixMoteur){
-        super();
+        super(cylindre,prixMoteur);
         setType(TypeMoteur.ELECTRIQUE);
     }
 }

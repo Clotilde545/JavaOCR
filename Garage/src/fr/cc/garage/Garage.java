@@ -1,5 +1,8 @@
 package fr.cc.garage;
 
+import fr.cc.options.GPS;
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,9 +13,11 @@ public class Garage extends Vehicule {
     protected Marque nomMarque;
 
 
+
 public Garage(){
     super();
     this.listVehicule = new ArrayList();
+
 }
 
     //Getters and setters
@@ -50,6 +55,7 @@ public Garage(){
                 ", nomVehicule='" + nomVehicule + '\'' +
                 ", listVehicule=" + listVehicule +
                 ", nomMarque='" + nomMarque + '\'' +
+                "\n, prix Total" + prixTotal+
                 '}';
     }
 }

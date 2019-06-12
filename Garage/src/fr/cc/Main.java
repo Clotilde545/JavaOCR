@@ -14,7 +14,9 @@ public class Main {
         System.out.println(garage);
 
         Vehicule lag1 = new Laguna();
-        lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256));
+        lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256.0));
+        MoteurEssence moteur = new MoteurEssence("150 Chevaux", 10256.0);
+        System.out.println(moteur.getPrixMoteur());
         lag1.addOption(new GPS());
         lag1.addOption(new SiegeChauffant());
         lag1.addOption(new VitreElectrique());

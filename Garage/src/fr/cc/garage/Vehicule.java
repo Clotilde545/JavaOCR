@@ -1,7 +1,10 @@
 package fr.cc.garage;
 
+import fr.cc.options.GPS;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Vehicule {
     protected Double prixChassis;
@@ -9,11 +12,30 @@ public class Vehicule {
     protected List<Options> option;
     protected Marque nomMarque;
     protected Moteur moteur;
+    protected Double prixTotal;
+
 
     public Vehicule(){
         super();
         this.option = new ArrayList<Options>();
+        //this.prixTotal = prixTot() ;
     }
+
+    public double prixTot(){
+        Double tot = this.getMoteur().getPrixMoteur() + getPrixChassis() + prixTotOption();
+        return tot;
+    }
+
+    private double prixTotOption(){
+        Double sum =0.0;
+        for (Options opt:option) {
+
+           sum += opt.getPrixOption();
+
+        }
+       return sum;
+    }
+
 
 
     public void addOption(Options opt){
@@ -30,6 +52,8 @@ public class Vehicule {
                 ", nom='" + nom + '\'' +
                 ", option=" + option +
                 ", nomMarque=" + nomMarque +
+                ", prix moteur" + getMoteur().getPrixMoteur() +
+                ", prix total " + prixTot() +
                 '}';
     }
 

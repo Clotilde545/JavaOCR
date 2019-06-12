@@ -1,15 +1,16 @@
 package fr.cc.garage;
 
 public class Moteur {
-    protected TypeMoteur type;
-    protected String cylindre;
-    protected double prixMoteur;
+    private TypeMoteur type;
+    private String cylindre;
+    private double prixMoteur;
 
 
 
-    public void  Moteur(String cylindre, double prixMoteur){
+
+    public  Moteur(String cylindre, double prixMoteur){
         this.cylindre = cylindre;
-        this.prixMoteur=prixMoteur;
+        this.setPrixMoteur(prixMoteur);
 
     }
 
