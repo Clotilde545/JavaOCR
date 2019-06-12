@@ -12,15 +12,21 @@ import fr.cc.vehicule.D4;
 import fr.cc.vehicule.Laguna;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetEncoder;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
         Garage garage = new Garage();
         System.out.println(garage);
+        List listVehicules = new ArrayList();
 
         Vehicule lag1 = new Laguna();
         lag1.setMoteur(new MoteurEssence("150 Chevaux", 10256.0));
@@ -30,7 +36,8 @@ public class Main {
         lag1.addOption(new SiegeChauffant());
         lag1.addOption(new VitreElectrique());
         garage.addVoiture(lag1);
-        System.out.println("\n" + lag1);
+        System.out.println("\n liste véhicules bis \n" + garage.getListVehicule());
+
 
         Vehicule A300B_2 = new A300B();
         A300B_2.setMoteur(new MoteurElectrique("1500 W", 1234d));
@@ -70,14 +77,18 @@ public class Main {
         garage.addVoiture(d4_2);
         System.out.println("\n" + d4_2);
 
+        System.out.println("\n liste véhicules bis \n" + garage.getListVehicule() + "\n fin liste véhicules \n");
+
         //ECriture et lecture
         Path path = Paths.get("garage.txt");
         System.out.println("existe-t-il" + Files.exists(path));
 
-        FileWriter fileWriter;
+
         FileReader fileReader;
         File file = new File("garage.txt");
-        String str ;
+        ObjectOutputStream oos;
+        String str;
+
         try {
             fileReader = new FileReader(file);
             str = "";
@@ -86,12 +97,26 @@ public class Main {
                 str += (char) i;
             }
             System.out.println(str);
-        }catch (FileNotFoundException e) {
+            fileReader.close();
+
+            //Ecriture des données
+            oos = new ObjectOutputStream(
+                    new BufferedOutputStream(
+                            new FileOutputStream(
+                                    new File("garage.txt")
+                            )
+                    )
+            );
+            oos.writeObject(garage.listVehicule.toString());
+            oos.close();
+
+
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-            System.out.println("lecture terminée !");
+        System.out.println("lecture terminée !");
 
     }
 }

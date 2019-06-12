@@ -54,7 +54,7 @@ public class Vehicule {
                 ", nomMarque=" + nomMarque +
                 ", prix moteur" + getMoteur().getPrixMoteur() +
                 ", prix total " + prixTot() +
-                '}';
+                "}\n";
     }
 
     //Getters and setters

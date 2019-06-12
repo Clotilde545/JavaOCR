@@ -4,12 +4,13 @@ import fr.cc.options.GPS;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Garage extends Vehicule {
     protected double prixVehicule;
     protected String nomVehicule;
-    protected List listVehicule;
+    public List listVehicule = Arrays.asList();
     protected Marque nomMarque;
 
 
@@ -42,8 +43,14 @@ public Garage(){
         this.nomVehicule = nomVehicule;
     }
 
+    public List getListVehicule() {
+        return listVehicule;
+    }
 
-    //public void setNomMarque(String nomMarque) {
+    public void setListVehicule(ArrayList listVehicule) {
+        this.listVehicule = listVehicule;
+    }
+//public void setNomMarque(String nomMarque) {
       //  this.nomMarque = nomMarque;
     //}
 
