@@ -91,14 +91,12 @@ public class Main {
 
 /**
  * @fileReader : pour lire le fichier
- * @oos : On=bject Output Stream pour écrire notre objet dans le fichier
+ *
  */
         FileReader fileReader;
         File file = new File("garage.txt");
-        ObjectOutputStream oos;
-        ObjectInputStream ois;
         String str;
-
+        //lecture
         try {
             fileReader = new FileReader(file);
             str = "";
@@ -108,36 +106,20 @@ public class Main {
             }
             System.out.println(str);
             fileReader.close();
-            //Récupération des données
-            ois = new ObjectInputStream(
-                    new BufferedInputStream(
-                            new FileInputStream(
-                                    new File("garage.txt")
-                            )
-                    )
-            );
-
-
-            ois.close();
-
-            //Ecriture des données
-            oos = new ObjectOutputStream(
-                    new BufferedOutputStream(
-                            new FileOutputStream(
-                                    new File("garage.txt")
-                            )
-                    )
-            );
-            oos.writeObject(garage.listVehicule.toString());
-            oos.close();
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
         System.out.println("lecture terminée !");
+
+        //Ecriture des nouvelles voitures
+        try {
+            Files.write(Paths.get("garage.txt"), garage.listVehicule.toString().getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("écriture terminée !");
 
     }
 }
