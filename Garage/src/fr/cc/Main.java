@@ -23,7 +23,9 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class Main {
+
     public static void main(String[] args) {
+        //Enoncé Open class Room
         Garage garage = new Garage();
         System.out.println(garage);
         List listVehicules = new ArrayList();
@@ -36,8 +38,6 @@ public class Main {
         lag1.addOption(new SiegeChauffant());
         lag1.addOption(new VitreElectrique());
         garage.addVoiture(lag1);
-        System.out.println("\n liste véhicules bis \n" + garage.getListVehicule());
-
 
         Vehicule A300B_2 = new A300B();
         A300B_2.setMoteur(new MoteurElectrique("1500 W", 1234d));
@@ -76,17 +76,27 @@ public class Main {
         d4_2.addOption(new VitreElectrique());
         garage.addVoiture(d4_2);
         System.out.println("\n" + d4_2);
+        // FIn énoncé Open Class room
 
-        System.out.println("\n liste véhicules bis \n" + garage.getListVehicule() + "\n fin liste véhicules \n");
+        //Vérification de la liste
+        System.out.println("\n liste véhicules  \n" + garage.getListVehicule() + "\n fin liste véhicules \n");
 
-        //ECriture et lecture
+        //ECriture et lecture de la liste de véhicule
+        /**
+         * Définition du chemin du fichier dans lequel écrire
+         * Vérification de son existence
+         */
         Path path = Paths.get("garage.txt");
-        System.out.println("existe-t-il" + Files.exists(path));
+        System.out.println("existe-t-il" + Files.exists(path));//expected true
 
-
+/**
+ * @fileReader : pour lire le fichier
+ * @oos : On=bject Output Stream pour écrire notre objet dans le fichier
+ */
         FileReader fileReader;
         File file = new File("garage.txt");
         ObjectOutputStream oos;
+        ObjectInputStream ois;
         String str;
 
         try {
@@ -98,6 +108,17 @@ public class Main {
             }
             System.out.println(str);
             fileReader.close();
+            //Récupération des données
+            ois = new ObjectInputStream(
+                    new BufferedInputStream(
+                            new FileInputStream(
+                                    new File("garage.txt")
+                            )
+                    )
+            );
+
+
+            ois.close();
 
             //Ecriture des données
             oos = new ObjectOutputStream(

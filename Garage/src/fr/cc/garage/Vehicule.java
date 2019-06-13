@@ -1,10 +1,17 @@
 package fr.cc.garage;
 
-import fr.cc.options.GPS;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
+
+/**
+ * @Véhicule: Véhicule est une classe mère
+ * @prixChassis: définit le prix du chassis du véhicule
+ * @nom: définit le nom de la voiture
+ * @option: est une liste contenant les options du véhicule
+ * @marque: est la marque de la voiture
+ * @moteur: est le type de moteur de la voiture
+ * @prixTotal : est le prix total du véhicule c'est à dire le prix du chassis, le prix du moteur et le prix des options
+ */
 
 public class Vehicule {
     protected Double prixChassis;
@@ -21,11 +28,20 @@ public class Vehicule {
         //this.prixTotal = prixTot() ;
     }
 
+    /**
+     * @prixTot(): est une méthode permettant de claculer le prix total du véhicule,
+     * elle prend en comptre le prix du chassis, le prix du moteur et le prix des options
+     * @return: Double : elle retourne le prix total du véhicule
+     */
     public double prixTot(){
         Double tot = this.getMoteur().getPrixMoteur() + getPrixChassis() + prixTotOption();
         return tot;
     }
 
+    /**
+     * @prixTotOption(): est une méthode permettant de calculer le prix total des options
+     * @return: Double : elle retourne la somme total du prix des options
+     */
     private double prixTotOption(){
         Double sum =0.0;
         for (Options opt:option) {
@@ -37,14 +53,19 @@ public class Vehicule {
     }
 
 
-
+    /**
+     * @addOption(): méthode permettant d'ajouter les options dans une list d'option pour le véhicule
+     * @param opt: est l'option du véhicule
+     */
     public void addOption(Options opt){
             this.option.add(opt);
-
     }
 
 
-    //ToSTring
+    /**
+     * @toString : est une fonction résumant le véhicule
+     * @return : String : résumé des infos du véhicule
+     */
     @Override
     public String toString() {
         return "Vehicule{" +

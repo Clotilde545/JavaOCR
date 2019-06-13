@@ -5,24 +5,31 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @Garage : est une classe héritant de véhicule qui traite toutes les voitures
+ * @prixVehicule: Double : prix du véhicule
+ * @nomVehicule : String : nom du véhicule
+ * @nomMarque : String : nom de la marque du véhicule
+ * @listVehicule : Arrays.asList : liste des véhicules
+ */
 public class Garage extends Vehicule {
+
     protected double prixVehicule;
     protected String nomVehicule;
     public List listVehicule = Arrays.asList();
     protected Marque nomMarque;
 
 
+    public Garage() {
+        super();
+        this.listVehicule = new ArrayList();
 
-public Garage(){
-    super();
-    this.listVehicule = new ArrayList();
-
-}
+    }
 
     //Getters and setters
-    public List addVoiture(Object obj){
-       listVehicule.add(obj);
-       return listVehicule;
+    public List addVoiture(Object obj) {
+        listVehicule.add(obj);
+        return listVehicule;
     }
 
     public double getPrixVehicule() {
@@ -48,9 +55,7 @@ public Garage(){
     public void setListVehicule(ArrayList listVehicule) {
         this.listVehicule = listVehicule;
     }
-//public void setNomMarque(String nomMarque) {
-      //  this.nomMarque = nomMarque;
-    //}
+
 
     //To String
     @Override
@@ -60,7 +65,7 @@ public Garage(){
                 ", nomVehicule='" + nomVehicule + '\'' +
                 ", listVehicule=" + listVehicule +
                 ", nomMarque='" + nomMarque + '\'' +
-                "\n, prix Total" + prixTotal+
+                "\n, prix Total" + prixTotal +
                 '}';
     }
 }
