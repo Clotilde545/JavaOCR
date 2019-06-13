@@ -79,7 +79,7 @@ public class Main {
         // FIn énoncé Open Class room
 
         //Vérification de la liste
-        System.out.println("\n liste véhicules  \n" + garage.getListVehicule() + "\n fin liste véhicules \n");
+        System.out.println("\n liste véhicules  \n" + garage.getListVehicule().toString() + "\n fin liste véhicules \n");
 
         //ECriture et lecture de la liste de véhicule
         /**
@@ -118,6 +118,7 @@ public class Main {
             Files.write(Paths.get("garage.txt"), garage.listVehicule.toString().getBytes(), StandardOpenOption.APPEND);
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("erreur lors de l'écriture");
         }
         System.out.println("écriture terminée !");
 

@@ -63,7 +63,7 @@ public class Garage extends Vehicule {
         return "Garage{" +
                 "prixVehicule=" + prixVehicule +
                 ", nomVehicule='" + nomVehicule + '\'' +
-                ", listVehicule=" + listVehicule +
+                ", listOption=" + getOption() +
                 ", nomMarque='" + nomMarque + '\'' +
                 "\n, prix Total" + prixTotal +
                 '}';
